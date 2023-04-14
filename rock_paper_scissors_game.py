@@ -14,7 +14,7 @@ while True:
     if user_choice not in options:
         break 
     computer_choice = random.choice(options) 
-    print(computer_choice)
+    
     if user_choice != computer_choice:
         if user_choice == "rock" and computer_choice=="scissors":
             print("You Won!")
